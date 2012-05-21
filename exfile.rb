@@ -1,3 +1,5 @@
+# 外部ファイルからデータを取得し出力するプログラム
+
 data = open("users.txt")
 data.each { |line|
   line =~ /(\w*)\s*:\s*(\w*)/
